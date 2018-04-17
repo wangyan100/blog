@@ -1,0 +1,9 @@
+cp -fR public/* ../stewchicken.github.io/.
+cd ../stewchicken.github.io
+git add . --all
+git commit -a -m "update"
+git push
+
+
+
+
