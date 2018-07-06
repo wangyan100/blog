@@ -1,8 +1,0 @@
-cp -fR public/*  ../wangyan100.github.io/.
-cd ../wangyan100.github.io
-git add . --all
-git commit -a -m "update"
-git push
-
-
-
