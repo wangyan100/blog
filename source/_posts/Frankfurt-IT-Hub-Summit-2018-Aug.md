@@ -9,5 +9,5 @@ tags:
 - 关于在德国做IT自由职业者 市场行情，行业状况，如何入行，机遇和风险  
 主讲人 宁雷
 
-- 用Python (chatterbot +Flask) 开发自己的聊天机器人 		
+- 用Python (chatterbot +Flask) 开发自己的聊天机器人  
 主讲人 WangYan
