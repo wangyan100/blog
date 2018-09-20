@@ -29,12 +29,18 @@ Certificates:
 
 ShowCase: 
 - APP
+	- ![Leaf](/aboutme/app1.jpg)
+    - ![Value](/aboutme/app2.jpg)
+    - ![Music](/aboutme/app3.jpg)
 	- [MapMI](/2017/11/24/mapmi/)
 	- [PrintPic](/2017/08/24/picprint-1/)
 	- [ToDos App](/2017/07/03/mytodo-app/)
 	- [More Apps...](/2017/08/28/ContactManagmentTool/)
     
 - Web    
+ 	- ![OA](/aboutme/oa1.jpg)
+    - ![OA](/aboutme/oa2.jpg)
+    - ![OA](/aboutme/oa3.jpg)
 	- [Meetup -Vue](/2017/10/06/vuemeetup/)
     - [ParcelQuery -Angular](/2017/06/18/angular4-demo/)
 
