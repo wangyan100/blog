@@ -4,8 +4,8 @@ tags:
 ---
 ## How to parse message to XQuery's function paramter
 
-
-If you XQuery does not have function which takes input message as paramter, you could simply build route like below and it will work.
+By Apache Camel, you could easily pass Xml file to XQuery,
+if you XQuery does not have function which takes input message as paramter, you could simply build route like below and it will work.
 
 ```
 from("file:src/data?moveFailed=.error"). to("xquery:myxquery.xq").to("file:target/output");
@@ -24,4 +24,9 @@ But you could use $in.body(camel buildi in variable) which mapped to body(messag
 declare variable $in.body as xs:string external;
 let $request :=parse-xml($in.body)/*
 return xf:my_xquery_function($request)
+```
+Of couse, you also need to convert message from file to Xml String in this case as below shown.
+
+````
+from("file:src/data?moveFailed=.error").convertBodyTo(String.class).to("xquery:myxquery.xq").to("file:target/output");
 ```
